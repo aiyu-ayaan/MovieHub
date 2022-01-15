@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieHub</string>
+    <string name="home_label">Home</string>
+    <string name="home_transition">HomeTransition</string>
+    <string name="premiered">Premiered:%s</string>
+    <string name="schedule">Schedule %s at %s</string>
+    <string name="country">Country:%s</string>
+</resources>
