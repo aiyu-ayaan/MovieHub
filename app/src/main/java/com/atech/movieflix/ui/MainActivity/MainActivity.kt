@@ -30,12 +30,17 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.findNavController()
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
-                R.id.searchFragment -> {
+                R.id.searchFragment ->
                     binding.searchToolbar.isVisible = true
-                }
-                else -> {
+                else ->
                     binding.searchToolbar.isVisible = false
-                }
+
+            }
+            when (destination.id) {
+                R.id.detailFragment ->
+                    binding.bottomLayout.isVisible = false
+
+                else -> binding.bottomLayout.isVisible = true
             }
         }
         setupActionBarWithNavController(navController)
