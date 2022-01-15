@@ -14,10 +14,10 @@
         android:background="@color/MainColor"
         android:clipChildren="false"
         android:paddingEnd="8dp"
-        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:theme = "@android:style/ThemeOverlay.Material.Dark.ActionBar"
         app:contentInsetStartWithNavigation="0dp"
         app:layout_scrollFlags="snap|enterAlways"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
         app:titleTextColor="@color/textColor">
 
         <LinearLayout
